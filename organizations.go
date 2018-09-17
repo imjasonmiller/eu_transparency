@@ -3,6 +3,7 @@ package main
 import (
 	"database/sql"
 	"encoding/xml"
+	"log"
 	"os"
 
 	"github.com/lib/pq"
@@ -57,6 +58,12 @@ func processXML(file string, db *sql.DB) error {
 
 				if code, ok := countries[org.ContactDetails.Country]; ok {
 					org.ContactDetails.CountryCode = code
+				} else {
+					// throw proper error, could not find country
+					log.Printf(
+						"could not find '%s', in the country_names table",
+						org.ContactDetails.Country,
+					)
 				}
 
 				// Bulk upsert every 1000 rows.
@@ -65,10 +72,12 @@ func processXML(file string, db *sql.DB) error {
 					if err != nil {
 						return err
 					}
-					orgs = nil
+
+					orgs = &[]organization{}
 				}
 
 				*orgs = append(*orgs, org)
+
 				counter++
 			}
 		}
@@ -106,7 +115,7 @@ func bulkUpsertOrganizations(orgs *[]organization, db *sql.DB) error {
 	_, err = txn.Exec(`CREATE TEMP TABLE organizations_temp (
 		organization_id             TEXT NOT NULL,
 		organization_name           TEXT NOT NULL,
-		organization_country		INT  NOT NULL,
+		organization_country				INT  NOT NULL,
 		organization_legal_status   TEXT NOT NULL,
 		organization_updated_at     TIMESTAMP WITH TIME ZONE NOT NULL,
 		organization_registered_at  TIMESTAMP WITH TIME ZONE NOT NULL

@@ -1,0 +1,175 @@
+{
+  "name": "Communication",
+  "abbreviation": "COMM",
+  "description": "The Directorate-General for Communication is the Commission department responsible for explaining EU policies to outside audiences. It keeps the Commission abreast of political developments and of trends in public opinion and the media. It also coordinates communication campaigns within the Commission.",
+  "leaders": [
+    {
+      "id": "7d3e3a53-a0e2-4666-9188-9c6d8df156f3",
+      "name": "Jean-Claude Juncker",
+      "role": "President",
+      "country": "LU",
+      "leaderHostId": "829436d0-1850-424f-aebe-6dd76c793be2",
+      "memberHostId": "91b45ce8-2ff0-4e67-b5b5-b42151217f13"
+    },
+    {
+      "id": "7d915952-f82d-44c4-803e-9cbbab88c468",
+      "name": "Timo Pesonen",
+      "role": "Deputy Director-General",
+      "country": "FI",
+      "leaderHostId": "2aac00d9-fbaf-425f-af65-c697a37d51bb",
+      "memberHostId": ""
+    }
+  ],
+  "members": [
+    {
+      "id": "7104a388-f348-4d3b-915a-7c1dcb5f1405",
+      "name": "Clara Martinez Alberola",
+      "roles": [
+        {
+          "leader": "7d3e3a53-a0e2-4666-9188-9c6d8df156f3",
+          "role": "Head of Cabinet"
+        }
+      ]
+    },
+    {
+      "id": "6d54f0cc-1e97-46ed-8409-7710305b1fbd",
+      "name": "José Eduardo Leandro",
+      "roles": [
+        {
+          "leader": "7d3e3a53-a0e2-4666-9188-9c6d8df156f3",
+          "role": "Economic Adviser"
+        }
+      ]
+    },
+    {
+      "id": "e5f5592a-15e8-4e65-960c-3dee8a60e5f4",
+      "name": "Carlo Zadra",
+      "roles": [
+        {
+          "leader": "7d3e3a53-a0e2-4666-9188-9c6d8df156f3",
+          "role": "Senior Legal Adviser"
+        }
+      ]
+    },
+    {
+      "id": "43fe7a9f-aed1-4f3a-b1c3-7b6981a24b00",
+      "name": "Richard Szostak",
+      "roles": [
+        {
+          "leader": "7d3e3a53-a0e2-4666-9188-9c6d8df156f3",
+          "role": "Deputy Head of Cabinet/Senior Diplomatic Adviser"
+        }
+      ]
+    },
+    {
+      "id": "b114b5ba-2055-4ebb-aa1c-d204a3aa93bf",
+      "name": "Sandra Kramer",
+      "roles": [
+        {
+          "leader": "7d3e3a53-a0e2-4666-9188-9c6d8df156f3",
+          "role": "Director of Coordination and Administration"
+        }
+      ]
+    },
+    {
+      "id": "eed58b91-e7df-4179-b820-246dd0e29169",
+      "name": "Luc Tholoniat",
+      "roles": [
+        {
+          "leader": "7d3e3a53-a0e2-4666-9188-9c6d8df156f3",
+          "role": "Economic Adviser"
+        }
+      ]
+    },
+    {
+      "id": "b352aa19-4721-4d21-93cd-e953404cee39",
+      "name": "Paulina Dejmek-Hack",
+      "roles": [
+        {
+          "leader": "7d3e3a53-a0e2-4666-9188-9c6d8df156f3",
+          "role": "Financial Adviser"
+        }
+      ]
+    },
+    {
+      "id": "f031f4d3-742d-40ec-9198-b507eafad99a",
+      "name": "Pauline Rouch",
+      "roles": [
+        {
+          "leader": "7d3e3a53-a0e2-4666-9188-9c6d8df156f3",
+          "role": "Political Adviser"
+        }
+      ]
+    },
+    {
+      "id": "2088ab8c-9128-46ce-ad37-66428b41e8c2",
+      "name": "Michael Shotter",
+      "roles": [
+        {
+          "leader": "7d3e3a53-a0e2-4666-9188-9c6d8df156f3",
+          "role": "Senior Legal Adviser"
+        }
+      ]
+    },
+    {
+      "id": "a054c6a8-026e-46d5-a759-8c329a121c6a",
+      "name": "Stefano Grassi",
+      "roles": [
+        {
+          "leader": "7d3e3a53-a0e2-4666-9188-9c6d8df156f3",
+          "role": "Institutional Adviser"
+        }
+      ]
+    },
+    {
+      "id": "a5cb87cc-a6a1-44f8-849e-3dc3fca292ef",
+      "name": "Telmo Baltazar",
+      "roles": [
+        {
+          "leader": "7d3e3a53-a0e2-4666-9188-9c6d8df156f3",
+          "role": "Senior Political Adviser"
+        }
+      ]
+    },
+    {
+      "id": "4990aff5-df49-48a0-b235-fb5e8e1d345c",
+      "name": "Christiane Canenbley",
+      "roles": [
+        {
+          "leader": "7d3e3a53-a0e2-4666-9188-9c6d8df156f3",
+          "role": "Political Adviser"
+        }
+      ]
+    },
+    {
+      "id": "0279dc09-c316-4573-9226-bac9d04a41f8",
+      "name": "León Delvaux",
+      "roles": [
+        {
+          "leader": "7d3e3a53-a0e2-4666-9188-9c6d8df156f3",
+          "role": "Trade and Development Adviser"
+        }
+      ]
+    },
+    {
+      "id": "869eb6bc-6b7d-45f9-b1fa-9f511b07f561",
+      "name": "Antoine Kasel",
+      "roles": [
+        {
+          "leader": "7d3e3a53-a0e2-4666-9188-9c6d8df156f3",
+          "role": "Legal and Budgetary Adviser"
+        }
+      ]
+    },
+    {
+      "id": "927b4e36-f646-4856-9fb7-fc28901b5592",
+      "name": "Martin Selmayr",
+      "roles": [
+        {
+          "leader": "7d3e3a53-a0e2-4666-9188-9c6d8df156f3",
+          "role": "Head of Cabinet"
+        }
+      ]
+    }
+  ]
+}

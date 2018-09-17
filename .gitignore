@@ -6,4 +6,5 @@ database/organizations/**
 
 web/build/**
 web/node_modules
+test.xml
 

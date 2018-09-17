@@ -21,6 +21,7 @@ func main() {
 
 	defer conn.Close()
 
+	// TODO: Convert meeting fields into a unique SHA1 hash
 	id := uuid.NewSHA1(uuid.NameSpaceOID, []byte("test"))
 
 	fmt.Println("id:", id)
@@ -37,15 +38,15 @@ func main() {
 	// 	log.Fatal(err)
 	// }
 
-	// src := "http://ec.europa.eu/transparencyregister/public/consultation/statistics.do?action=getLobbyistsXml&fileType=NEW"
-	// dst := "test.xml"
+	src := "http://ec.europa.eu/transparencyregister/public/consultation/statistics.do?action=getLobbyistsXml&fileType=NEW"
+	dst := "test.xml"
 
-	// if err := downloadFile(src, dst); err != nil {
-	// 	log.Fatal(err)
-	// }
+	if err := downloadFile(src, dst); err != nil {
+		log.Fatal(err)
+	}
 
-	// if err := processXML(dst, conn.db); err != nil {
-	// 	log.Fatal(err)
-	// }
+	if err := processXML(dst, conn.db); err != nil {
+		log.Fatal(err)
+	}
 
 }

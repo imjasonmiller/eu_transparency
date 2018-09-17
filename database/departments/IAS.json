@@ -1,0 +1,156 @@
+{
+  "name": "Internal Audit Service",
+  "abbreviation": "IAS",
+  "description":
+      "The Internal Audit Service provides independent advice, opinions and recommendations on the quality and functioning of internal control systems inside the Commission, EU agencies and other autonomous bodies.",
+  "leaders": [
+    {
+      "id": "97b6c61b-219d-4b5e-ae8c-cbe362c8a6e2",
+      "name": "Frans Timmermans",
+      "role": "First Vice-President",
+      "country": "NL",
+      "leaderHostId": "b47bf526-b773-40e7-9392-89d454e0672f",
+      "memberHostId": "f3715246-e6ff-4856-b9d8-1ed4f86738b7"
+    },
+    {
+      "id": "2a3e16ce-98db-476c-a3be-435a08167465",
+      "name": "Manfred Kraff",
+      "role": "Director-General",
+      "country": "DE",
+      "leaderHostId": "35e322b6-e216-42e2-9b87-b21c41ac0d2a",
+      "memberHostId": ""
+    }
+  ],
+  "members": [
+    {
+      "id": "401ad5ef-7e17-4b75-8d64-54c4d97402c6",
+      "name": "Bernardus Smulders",
+      "roles": [
+        {
+          "leader": "97b6c61b-219d-4b5e-ae8c-cbe362c8a6e2",
+          "role": "Head of Cabinet"
+        }
+      ]
+    },
+    {
+      "id": "5f25bb3c-6aea-4819-964e-a666219c7adf",
+      "name": "Michelle Sutton",
+      "roles": [
+        {
+          "leader": "97b6c61b-219d-4b5e-ae8c-cbe362c8a6e2",
+          "role": "Deputy Head of Cabinet"
+        }
+      ]
+    },
+    {
+      "id": "ff738220-f658-46d1-b1e6-b8bc96c514d6",
+      "name": "Anthony Agotha",
+      "roles": [
+        {
+          "leader": "97b6c61b-219d-4b5e-ae8c-cbe362c8a6e2",
+          "role": "Expert and Communication Adviser"
+        }
+      ]
+    },
+    {
+      "id": "3a6fd327-debd-4078-9ad5-7cd2fe3deb95",
+      "name": "Liene Balta",
+      "roles": [
+        {
+          "leader": "97b6c61b-219d-4b5e-ae8c-cbe362c8a6e2",
+          "role": "Member"
+        }
+      ]
+    },
+    {
+      "id": "89da6277-beed-48bc-aabd-8e992a5f7a7d",
+      "name": "Liene Balta",
+      "roles": [
+        {
+          "leader": "97b6c61b-219d-4b5e-ae8c-cbe362c8a6e2",
+          "role": "Member"
+        }
+      ]
+    },
+    {
+      "id": "5342f20b-e0ef-4e86-bbdd-1e7960491fc4",
+      "name": "Helena Braun",
+      "roles": [
+        {
+          "leader": "97b6c61b-219d-4b5e-ae8c-cbe362c8a6e2",
+          "role": "Member"
+        }
+      ]
+    },
+    {
+      "id": "fa4eb41f-cfd0-441b-bd4d-4f9316a84ed0",
+      "name": "Antoine Colombani",
+      "roles": [
+        {
+          "leader": "97b6c61b-219d-4b5e-ae8c-cbe362c8a6e2",
+          "role": "Member"
+        }
+      ]
+    },
+    {
+      "id": "662e3a91-c437-4f15-899e-dd66114c89b1",
+      "name": "Liesbeth Koenen",
+      "roles": [
+        {
+          "leader": "97b6c61b-219d-4b5e-ae8c-cbe362c8a6e2",
+          "role": "Private Secretary to the First Vice President"
+        }
+      ]
+    },
+    {
+      "id": "d17d996f-333f-4e41-be38-b60939488cbf",
+      "name": "Riccardo Maggi",
+      "roles": [
+        {
+          "leader": "97b6c61b-219d-4b5e-ae8c-cbe362c8a6e2",
+          "role": "Member"
+        }
+      ]
+    },
+    {
+      "id": "befab4f0-35a4-4250-8cfe-da689e3d1015",
+      "name": "Thomas Zerdick",
+      "roles": [
+        {
+          "leader": "97b6c61b-219d-4b5e-ae8c-cbe362c8a6e2",
+          "role": "Member"
+        }
+      ]
+    },
+    {
+      "id": "ca236460-3195-4ef2-843f-aaceba4db13c",
+      "name": "Bernd Martenczuk",
+      "roles": [
+        {
+          "leader": "97b6c61b-219d-4b5e-ae8c-cbe362c8a6e2",
+          "role": "Member"
+        }
+      ]
+    },
+    {
+      "id": "5883ebb1-e76e-4237-9f57-c99c19ae5486",
+      "name": "Sarah Nelen",
+      "roles": [
+        {
+          "leader": "97b6c61b-219d-4b5e-ae8c-cbe362c8a6e2",
+          "role": "Member"
+        }
+      ]
+    },
+    {
+      "id": "afd9fdd3-a45e-4932-a6b5-9ba6378afd59",
+      "name": "Alice Richard",
+      "roles": [
+        {
+          "leader": "97b6c61b-219d-4b5e-ae8c-cbe362c8a6e2",
+          "role": "Member"
+        }
+      ]
+    }
+  ]
+}
