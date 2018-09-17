@@ -1,0 +1,9 @@
+.env
+.vscode/*
+
+database/backups/**
+database/organizations/**
+
+web/build/**
+web/node_modules
+
